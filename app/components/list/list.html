@@ -1,0 +1,19 @@
+<div>
+    <div class="container">
+        <list-search></list-search>
+
+        <!--Add ng repeat statement -->
+        <div class="row list-group-item list-item"
+             ui-sref="movie({id: movie.id})">
+            <div class="col-xs-12 col-md-7">
+                <span class="title">Title</span> <!-- bind to the movie title using ng-bind -->
+                <span class="year">(Year<!-- bind to the movie year using {{}} -->)</span>
+            </div>
+            <div class="col-xs-6 col-md-4">
+                <span class="director">Director: </span> Director
+                <!-- bind to the movie director using {{}} -->
+            </div>
+            <div class="col-xs-6 col-md-1">Country</div> <!-- bind to the movie country using ng-bind -->
+        </div>
+    </div>
+</div>

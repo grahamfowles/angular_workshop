@@ -1,0 +1,8 @@
+<div>
+    <i class="glyphicon"
+       ng-repeat="option in ratingCtrl.RATING_OPTIONS"
+       ng-class="{'glyphicon-heart-empty': !ratingCtrl.isFull(option), 'glyphicon-heart': ratingCtrl.isFull(option)}"
+       ng-click="ratingCtrl.setRating(option)"
+       ng-mouseover="ratingCtrl.showRating(option)"
+       ng-mouseout="ratingCtrl.resetRating()"></i>
+</div>

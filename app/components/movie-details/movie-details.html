@@ -1,0 +1,16 @@
+<div class="container movie-details">
+    <div class="row">
+        <div class="col-xs-12 col-md-3">
+            <img ng-src="{{movieDetailsCtrl.movie.imageUrl}}">
+        </div>
+        <div class="col-xs-12 col-md-6 description" ng-bind="movieDetailsCtrl.movie.description"></div>
+        <div class="col-xs-12 col-md-3">
+            <div class="info-label">Rating</div>
+            <rating rating="{{movieDetailsCtrl.getRating()}}" movie-id="{{movieDetailsCtrl.movie.id}}"></rating>
+            <div class="info-label">Stars</div>
+            <div ng-bind="movieDetailsCtrl.getListOfStars()"></div>
+            <div class="info-label">Director</div>
+            <div ng-bind="movieDetailsCtrl.movie.director"></div>
+        </div>
+    </div>
+</div>

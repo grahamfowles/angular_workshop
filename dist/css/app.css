@@ -1,0 +1,55 @@
+header{
+    background: #6f5499;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.list-search{
+    padding: 20px;
+}
+
+.list-item:hover{
+    background: #eee;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.year{
+    font-size: 18px;
+    color: #999;
+}
+
+.director{
+    font-weight: bold;
+}
+
+.back{
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.movie-details{
+    margin-top: 10px;
+}
+
+.movie-details img{
+    width: 100%;
+}
+
+.info-label{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.description{
+    font-size: 28px;
+}
